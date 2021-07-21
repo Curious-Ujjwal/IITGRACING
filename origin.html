@@ -103,12 +103,18 @@
         #carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet {
             color: #b02b2b;  /*Set to match the Tailwind colour you want the active one to be */
         }
+        #topBtn {
+          background-color: #BE1E2D;
+        }
+        #topBtn:hover{
+          opacity: 0.9;
+        }
     </style>
 </head>
 <body>
     <div class="cursor hidden md:block"></div>
     <div class="cursor-follower hidden md:block"></div>
-    <button onclick="reachTop()" class="bg-red-600 text-white px-1 py-1 rounded-full hover:bg-red-500 focus:outline-none fixed z-50 bottom-10 right-10 hidden" id="topBtn">
+    <button onclick="reachTop()" class="text-white px-1 py-1 rounded-full focus:outline-none fixed z-50 bottom-10 right-10 hidden" id="topBtn">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" viewBox="0 0 20 20" fill="currentColor">
           <path fill-rule="evenodd" d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z" clip-rule="evenodd"/>
         </svg>
@@ -421,7 +427,7 @@
           </div>
 
         </div>
-        <div class="h-96 w-full bg-cover bg-no-repeat bg-top rounded-t lg:rounded-t-none lg:rounded-1 text-center clip-members" style="background-image: url('./img_cars/origin_2.jpg'); z-index: -1;">
+        <div class="h-96 w-full bg-cover bg-no-repeat bg-top rounded-t lg:rounded-t-none lg:rounded-1 text-center clip-members" style="background-image: url('./public/img_cars/origin_2.jpg'); z-index: -1;">
         </div>
       </div>
       <div class="w-full lg:max-w-full lg:flex py-16 relative">

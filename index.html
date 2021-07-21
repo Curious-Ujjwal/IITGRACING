@@ -100,12 +100,21 @@
           -webkit-filter: grayscale(0) !important;
 	        filter: grayscale(0) !important;
         }
+        #teambtn:hover, #carsbtn:hover {
+          background-color: #BE1E2D;
+        }
+        #topBtn {
+            background-color: #BE1E2D;
+        }
+        #topBtn:hover{
+            opacity: 0.9;
+        }
     </style>
 </head>
 <body onload="sliderStart()">
     <div class="cursor hidden md:block"></div>
     <div class="cursor-follower hidden md:block"></div>
-    <button onclick="reachTop()" class="bg-red-600 text-white px-1 py-1 rounded-full hover:bg-red-500 focus:outline-none fixed z-50 bottom-10 right-10 hidden" id="topBtn">
+    <button onclick="reachTop()" class="text-white px-1 py-1 rounded-full focus:outline-none fixed z-50 bottom-10 right-10 hidden" id="topBtn">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" viewBox="0 0 20 20" fill="currentColor">
           <path fill-rule="evenodd" d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z" clip-rule="evenodd" />
         </svg>
@@ -405,7 +414,7 @@
         <ul class="px-10 select-none">
             <a>
             <li onclick="resetInterval1(event)" class="py-0.5 float-left w-36 mx-0.5 px-0.5 bg-transparent pt-2 text-md text-red-600 font-bold" id="slide-0">
-                <span id="l-0" style="text-shadow: 1px 1px 1px black;">Concept A</span>
+                <span id="l-0" style="text-shadow: 1px 1px 1px black;">Vision F</span>
                 <div class="h-2" id="ht-0"></div>
                 <span class="slide-progress normal align-bottom" id="slide0"></span>
             </li>
@@ -461,7 +470,7 @@
             </p>
             <br>
             <a href="ourcars.html">
-                <span class="mt-4 bg-transparent hover:bg-red-600 text-black-700 font-normal px-4 border border-black hover:border-transparent rounded w-48 hover:text-white text-base py-1" style="font-family: poppins;">
+                <span class="mt-4 bg-transparent text-black-700 font-normal px-4 border border-black hover:border-transparent rounded w-48 hover:text-white text-base py-1" style="font-family: poppins;" id="carsbtn">
                     VIEW CARS
                     <svg xmlns="http://www.w3.org/2000/svg" class="py-1 h-8 w-6 inline-block align-bottom" viewBox="0 0 20 20" fill="currentColor" style="height: 2.0em; vertical-align: -0.65em;">
                         <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
@@ -479,7 +488,7 @@
             </p>
             <br>
             <a href="team20_21.html">
-            <span class="mt-4 bg-transparent hover:bg-red-600 text-black-700 font-normal px-4 border border-black hover:border-transparent rounded w-48 hover:text-white text-base py-1" style="font-family: poppins;">
+            <span class="mt-4 bg-transparent text-black-700 font-normal px-4 border border-black hover:border-transparent rounded w-48 hover:text-white text-base py-1" style="font-family: poppins;" id="teambtn">
                 MEET THE TEAM
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-6 inline-block align-bottom" viewBox="0 0 20 20" fill="currentColor" style="height: 2.0em; vertical-align: -0.65em;">
                   <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
@@ -543,7 +552,7 @@
             background-size: 100% 100%;
             ">
             </div> -->
-            <img src="./public/img/Website IG/poster.png" alt="" class="w-full h-96 insta-img">
+            <img src="./public/img/Website IG/Heads.png" alt="" class="w-full insta-img">
           </a>
         </div>
         <div>
@@ -552,7 +561,7 @@
             background-image: linear-gradient(0deg, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url('./img/Website IG/1Artboard 1.png');
             background-size: 100% 100%;">
             </div> -->
-            <img src="./public/img/Website IG/1Artboard 1.png" alt="" class="w-full h-96 insta-img">
+            <img src="./public/img/Website IG/new team.png" alt="" class="w-full insta-img">
           </a>
         </div>
         <div>
@@ -561,7 +570,7 @@
             background-image: linear-gradient(0deg, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url('./img/Website IG/DSC06909New.jpg');
             background-size: 100% 100%;">
             </div> -->
-            <img src="./public/img/Website IG/DSC06909New.jpg" alt="" class="w-full h-96 insta-img">
+            <img src="./public/img/Website IG/team photo.png" alt="" class="w-full insta-img">
           </a>
         </div>
         <div>
@@ -570,7 +579,7 @@
             background-image: linear-gradient(0deg, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url('./img/Website IG/ev poster1.png');
             background-size: 100% 100%;"> -->
             <!-- </div> -->
-            <img src="./public/img/Website IG/ev poster1.png" alt="" class="w-full h-96 insta-img">
+            <img src="./public/img/Website IG/ev.png" alt="" class="w-full insta-img">
           </a>
         </div>
         <div>
@@ -579,7 +588,7 @@
             background-image: linear-gradient(0deg, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url('./img/Website IG/File_004.jpeg');
             background-size: 100% 100%;">
             </div> -->
-            <img src="./public/img/Website IG/File_004.jpeg" alt="" class="w-full h-96 insta-img">
+            <img src="./public/img/Website IG/File_004.jpeg" alt="" class="w-full insta-img">
           </a>
         </div>
         <div>
@@ -588,7 +597,7 @@
             background-image: linear-gradient(0deg, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url('./img/Website IG/Holi2.png');
             background-size: 100% 100%;">
             </div> -->
-            <img src="./public/img/Website IG/Holi2.png" alt="" class="w-full h-96 insta-img">
+            <img src="./public/img/Website IG/holi.png" alt="" class="w-full insta-img">
           </a>
         </div>
       </div>
@@ -711,7 +720,7 @@
                 tile0.classList.toggle('grow');
                 ht0.classList.toggle('h-1');
                 ht0.classList.toggle('h-2');
-                label0.innerText = 'Concept A';
+                label0.innerText = 'Vision F';
                 label1.innerText = '2';
                 label2.innerText = '3';
                 label3.innerText = '4';
@@ -737,7 +746,7 @@
                 tile1.classList.toggle('grow');
                 ht1.classList.toggle('h-1');
                 ht1.classList.toggle('h-2');
-                label1.innerText = 'Vision F';
+                label1.innerText = 'Concept A';
                 label0.innerText = '1';
                 label2.innerText = '3';
                 label3.innerText = '4';

@@ -5,12 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NEWS Article | IITG RACING</title>
-    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="css/hamburger.css">
-    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="css/tailwind.css">
-    <link rel="stylesheet" href="css/cursor.css">
-    <link rel="stylesheet" href="css/scrollbar.css">
+    <link rel="stylesheet" href="./public/css/hamburger.css">
+    <link rel="shortcut icon" href="./public/img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./public/css/tailwind.css">
+    <link rel="stylesheet" href="./public/css/cursor.css">
+    <link rel="stylesheet" href="./public/css/scrollbar.css">
     <link rel="stylesheet" href="./public/css/news.css">
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
@@ -65,12 +64,18 @@
             transform: rotate(-180deg);
             transition-duration: 1s;
         }
+        #topBtn {
+            background-color: #BE1E2D;
+        }
+        #topBtn:hover{
+            opacity: 0.9;
+        }
     </style>
 </head>
 <body>
     <div class="cursor hidden md:block"></div>
     <div class="cursor-follower hidden md:block"></div>
-    <button onclick="reachTop()" class="bg-red-600 text-white px-1 py-1 rounded-full hover:bg-red-500 focus:outline-none fixed z-50 bottom-10 right-10 hidden" id="topBtn">
+    <button onclick="reachTop()" class="text-white px-1 py-1 rounded-full focus:outline-none fixed z-50 bottom-10 right-10 hidden" id="topBtn">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" viewBox="0 0 20 20" fill="currentColor">
           <path fill-rule="evenodd" d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z" clip-rule="evenodd"/>
         </svg>
