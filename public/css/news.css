@@ -9,55 +9,55 @@
 
 }
 .news-img-13 {
-    background-image: url(../img_news/BlackOverlay.png), url(../img_news/for-bhar-2020.jpg);
+    background-image: url(.././public/img_news/BlackOverlay.png), url(../img_news/for-bhar-2020.jpg);
 }
 
 .news-img-12 {
-    background-image: url(../img_news/BlackOverlay.png), url(../img_news/eficycle-2018.jpg);
+    background-image: url(.././public/img_news/BlackOverlay.png), url(../img_news/eficycle-2018.jpg);
 }
 
 .news-img-11 {
-    background-image: url(../img_news/BlackOverlay.png), url(../img_news/eficycle-2017.jpg);
+    background-image: url(.././public/img_news/BlackOverlay.png), url(../img_news/eficycle-2017.jpg);
 }
 
 .news-img-10 {
-    background-image: url(../img_news/BlackOverlay.png), url(../img_news/tachyon-2017.jpg);
+    background-image: url(.././public/img_news/BlackOverlay.png), url(../img_news/tachyon-2017.jpg);
 }
 
 .news-img-9 {
-    background-image: url(../img_news/BlackOverlay.png), url(../img_news/tel-article-2017.jpg);
+    background-image: url(.././public/img_news/BlackOverlay.png), url(../img_news/tel-article-2017.jpg);
 }
 
 .news-img-8 {
-    background-image: url(../img_news/BlackOverlay.png), url(../img_news/techevince-2017.jpg);
+    background-image: url(.././public/img_news/BlackOverlay.png), url(../img_news/techevince-2017.jpg);
 }
 
 .news-img-7 {
-    background-image: url(../img_news/BlackOverlay.png), url(../img_news/for-bhar-2017.JPG);
+    background-image: url(.././public/img_news/BlackOverlay.png), url(../img_news/for-bhar-2017.JPG);
 }
 
 .news-img-6 {
-    background-image: url(../img_news/BlackOverlay.png), url(../img_news/article-2015.jpg);
+    background-image: url(.././public/img_news/BlackOverlay.png), url(../img_news/article-2015.jpg);
 }
 
 .news-img-5 {
-    background-image: url(../img_news/BlackOverlay.png), url(../img_news/eficycle-2015.jpg);
+    background-image: url(.././public/img_news/BlackOverlay.png), url(../img_news/eficycle-2015.jpg);
 }
 
 .news-img-4 {
-    background-image: url(../img_news/BlackOverlay.png), url(../img_news/supra-2015.jpg);
+    background-image: url(.././public/img_news/BlackOverlay.png), url(../img_news/supra-2015.jpg);
 }
 
 .news-img-3 {
-    background-image: url(../img_news/BlackOverlay.png), url(../img_news/eficycle-2014.jpg);
+    background-image: url(.././public/img_news/BlackOverlay.png), url(../img_news/eficycle-2014.jpg);
 }
 
 .news-img-2 {
-    background-image: url(../img_news/BlackOverlay.png), url(../img_news/eficycle-2013.jpeg);
+    background-image: url(.././public/img_news/BlackOverlay.png), url(../img_news/eficycle-2013.jpeg);
 }
 
 .news-img-1 {
-    background-image: url(../img_news/BlackOverlay.png), url(../img_news/Baja-2012.jpg);
+    background-image: url(.././public/img_news/BlackOverlay.png), url(../img_news/Baja-2012.jpg);
 }
 
 .news-img:hover {
